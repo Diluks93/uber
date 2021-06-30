@@ -1,12 +1,11 @@
 {
   "name": "uber",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Dmitriy",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.3",
@@ -18,5 +17,14 @@
     "gulp-sass": "^5.0.0",
     "sass": "^1.35.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diluks93/uber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Diluks93/uber/issues"
+  },
+  "homepage": "https://github.com/Diluks93/uber#readme",
+  "description": ""
 }
