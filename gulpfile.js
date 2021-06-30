@@ -19,7 +19,6 @@ gulp.task('styles', function() {
         .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
         .pipe(rename({
             prefix: "",
-            suffix: ".min",
         }))
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
